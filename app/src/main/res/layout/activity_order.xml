@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ccc3"
+    tools:context=".Order">
+
+    <TextView
+        android:id="@+id/prodIdTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="18sp"
+        android:textColor="#1C1C1C"
+        android:text="ID: "
+        android:enabled="false" />
+    <TextView
+        android:id="@+id/prodNameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="18sp"
+        android:textColor="#1C1C1C"
+        android:text="Product: "
+        android:enabled="false" />
+    <TextView
+        android:id="@+id/prodDescTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="18sp"
+        android:textColor="#1C1C1C"
+        android:text="Product Description: "
+        android:enabled="false" />
+    <TextView
+        android:id="@+id/prodPriceTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="18sp"
+        android:textColor="#1C1C1C"
+        android:text="Price: "
+        android:enabled="false" />
+
+    <EditText
+        android:id="@+id/qtyET"
+        android:inputType="number"
+        android:hint="Enter Qty you want to order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/cNameET"
+        android:inputType="text"
+        android:hint="Enter your Full Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/cNumberET"
+        android:inputType="number"
+        android:hint="Enter your Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/cEmailET"
+        android:inputType="textEmailAddress"
+        android:hint="Enter your Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/cAddressET"
+        android:inputType="text"
+        android:hint="Enter your Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/orderBtn"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Now" />
+</LinearLayout>

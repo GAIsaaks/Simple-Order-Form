@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="30dp">
+    <TextView
+        android:id="@+id/proTitleTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Title"
+        android:textSize="12sp"
+        android:paddingLeft="12sp"
+        android:paddingRight="12sp"
+        android:textColor="#1C1C1C" />
+    <TextView
+        android:id="@+id/proPriceTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Price"
+        android:textSize="12sp"
+        android:paddingLeft="12sp"
+        android:paddingRight="12sp"
+        android:textColor="#1C1C1C" />
+    <TextView
+        android:id="@+id/proQtyTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product QTY"
+        android:textSize="12sp"
+        android:paddingLeft="12sp"
+        android:paddingRight="12sp"
+        android:textColor="#1C1C1C" />
+    <TextView
+        android:id="@+id/proSumTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sum"
+        android:textSize="12sp"
+        android:paddingLeft="12sp"
+        android:paddingRight="12sp"
+        android:textColor="#1C1C1C" />
+    <TextView
+        android:id="@+id/clientOrderDateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Client Order Date"
+        android:paddingLeft="12sp"
+        android:textSize="12sp"
+        android:textColor="#1C1C1C" />
+</LinearLayout>

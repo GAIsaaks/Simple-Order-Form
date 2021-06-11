@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/productIDTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="" />
+    <TextView
+        android:id="@+id/productNameTV"
+        android:layout_width="75sp"
+        android:layout_height="wrap_content"
+        android:textColor="#1C1C1C"
+        android:textSize="14sp"
+        android:layout_margin="8sp"
+        android:text="Prod_Name" />
+    <TextView
+        android:id="@+id/productDescTV"
+        android:layout_width="180dp"
+        android:layout_margin="8sp"
+        android:layout_height="wrap_content"
+        android:textColor="#1C1C1C"
+        android:textSize="12sp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/productPriceTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#1C1C1C"
+        android:textSize="14sp"
+        android:layout_margin="8sp"
+        android:text="productPrice" />
+    <ImageView
+        android:src="@drawable/ic_baseline_touch_app_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+</LinearLayout>
